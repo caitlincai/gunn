@@ -61,10 +61,10 @@ public class Main {
         print(array);
     }       
 
-    public static void main(String[] args) throws Exception {
-        bubble(array1);
-        insert(array2);
-        select(array3);
+    // public static void main(String[] args) throws Exception {
+    //     bubble(array1);
+    //     insert(array2);
+    //     select(array3);
         
-    }
+    // }
 }
