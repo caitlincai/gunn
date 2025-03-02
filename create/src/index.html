@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skin Type Quiz</title>
+    <style>
+        body { font-family: serif; text-align: center; }
+        .question { margin: 20px 0; font-size: 18px; }
+        .scale-btn { padding: 10px; margin: 5px; cursor: pointer; }
+        #result { font-size: 22px; font-weight: bold; margin-top: 20px; color: #2c3e50; }
+        #quiz { margin-top: 20px; }
+    </style>
+</head>
+<body>
+    <h2>Find Your Skin Type!</h2>
+    <div id="instructions">
+        <p>Answer the following questions on a scale from 1 to 10.</p>
+        <p>1 = Not at all --------------------------- 10 = Very often</p>
+    </div>
+    <div id="quiz">
+        <p class="question" id="question-text"></p>
+        <div id="scale-buttons"></div>
+    </div>
+    <p id="result"></p>
+</body>
+    <script src="script.js"></script> 
+</html>
