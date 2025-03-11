@@ -47,9 +47,9 @@ public class Sort {
         a[j] = temp;
     }
         
-        public static void main(String[] args) {
-            System.out.println(quicksort(array)); // 3.5
-            System.out.println(quicksort(array2)); // 3.5
-            System.out.println(quicksort(array3)); // 7
-    }
+    //     public static void main(String[] args) {
+    //         System.out.println(quicksort(array)); // 3.5
+    //         System.out.println(quicksort(array2)); // 3.5
+    //         System.out.println(quicksort(array3)); // 7
+    // }
 }
