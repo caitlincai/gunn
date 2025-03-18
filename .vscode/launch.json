@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Merge",
+            "request": "launch",
+            "mainClass": "Merge",
+            "projectName": ""
+        },
+        {
+            "type": "java",
             "name": "Heap",
             "request": "launch",
             "mainClass": "Heap",

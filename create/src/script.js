@@ -11,6 +11,7 @@ const questions = [
 let answers = [];
 let currentQuestion = 0;
 
+
 function loadQuestion() {
     document.getElementById("question-text").textContent = questions[currentQuestion];
 
@@ -33,14 +34,20 @@ function answer(choice) {
     }
 }
 
+function startQuiz() {
+    document.getElementById("start-btn").style.display = "none"; // Hide start button
+    document.getElementById("quiz").style.display = "block"; // Show quiz
+    loadQuestion(); // Start quiz
+}
+
 // Function to determine skin type
 function determineSkinType(answers) {
     let totalScore = answers.reduce((a, b) => a + b, 0);
 
-    if (totalScore >= 40) return "Oily Skin - Try oil-free skincare!";
-    if (totalScore >= 25) return "Combination Skin - Balance hydration!";
+    if (totalScore >= 40) return "Oily Skin - Try gentler skin care products!";
+    if (totalScore >= 25) return "Combination Skin - Remember to balance hydration!";
     if (totalScore >= 15) return "Normal Skin - Maintain your routine!";
-    return "Dry Skin - Use deep moisturizers!";
+    return "Dry Skin - Use deep moisturizers for dry skin!";
 }
 
 // Display result
