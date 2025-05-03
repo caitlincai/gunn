@@ -45,8 +45,8 @@ function determineSkinType(answers) {
     let totalScore = answers.reduce((a, b) => a + b, 0);
 
     if (totalScore >= 40) return "Oily Skin - Try gentler skin care products!";
-    if (totalScore >= 25) return "Combination Skin - Remember to balance hydration!";
-    if (totalScore >= 15) return "Normal Skin - Maintain your routine!";
+    else if (totalScore >= 25) return "Combination Skin - Remember to balance hydration!";
+    else if (totalScore >= 15) return "Normal Skin - Maintain your routine!";
     return "Dry Skin - Use deep moisturizers for dry skin!";
 }
 
@@ -56,6 +56,3 @@ function showResult() {
     document.getElementById("quiz").style.display = "none";
     document.getElementById("result").textContent = "Your skin type: " + skinType;
 }
-
-// Start the quiz
-loadQuestion();
