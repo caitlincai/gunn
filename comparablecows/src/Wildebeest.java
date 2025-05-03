@@ -1,4 +1,4 @@
-package comparablecows;
+
 
 public class Wildebeest extends Animal {
 	private static int weight;

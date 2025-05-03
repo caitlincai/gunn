@@ -1,4 +1,4 @@
-package comparablecows;
+
 
 public class Wombat extends Animal {
 	private static int weight = 1800;

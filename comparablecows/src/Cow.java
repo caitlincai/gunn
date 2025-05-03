@@ -1,4 +1,4 @@
-package comparablecows;
+
 
 import java.util.Arrays;
 

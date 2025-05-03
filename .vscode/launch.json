@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "josephus.Main",
+            "projectName": ""
+        },
+        {
+            "type": "java",
+            "name": "Everything",
+            "request": "launch",
+            "mainClass": "Everything",
+            "projectName": ""
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "Main",
+            "projectName": ""
+        },
+        {
+            "type": "java",
             "name": "Merge",
             "request": "launch",
             "mainClass": "Merge",

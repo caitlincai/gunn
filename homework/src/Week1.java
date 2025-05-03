@@ -1,4 +1,4 @@
-package homework;
+
 
 public class Week1 {
 	public static int fastexpt(int a, int b, int n) {
